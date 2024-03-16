@@ -3,8 +3,8 @@
 
 All the project code has been inserted in the file `progtam.ipynb`.  
 The pipeline is divided into different steps:
-- **Data loading**:
-- **Data pre-processing and cleaning**: audio trimming, female voice pitch shift
-- **Data cleaning**: deletion of tracks with anomalous length
-- **Fine tuning**
-- **Private test-set classification** 
+- **Data loading**: tracks loading with librosa library
+- **Data pre-processing and cleaning**: audio trimming, female voice pitch shift, deletion of tracks with anomalous length
+- **MFCC features extraction**: MFCC data extraction and discretization
+- **Dimensionality reduction**: PCA
+- **Private test-set classification**:
